@@ -1,0 +1,96 @@
+/* Resetting default browser padding and margin */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #f9f9f9;
+  padding: 10px; /* Reduced margin */
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.maker {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #e5e5e5;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.maker h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: normal;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.buttons button {
+  flex: 1;
+  padding: 10px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  background-color: #007aff;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.buttons button:hover {
+  background-color: #005bb5;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.table-section table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-section th,
+.table-section td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table-section th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
